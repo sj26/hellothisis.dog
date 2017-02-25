@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello? Yes, this is dog</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        background: black url(./dog.jpg) no-repeat center center fixed;
+        background-size: cover;
+      }
+      .text {
+        display: block;
+        text-align: center;
+        font-family: "Impact", sans-serif;
+        font-size: 10vh;
+        color: white;
+        text-transform: uppercase;
+        text-stroke: 0.5vh black;
+        -webkit-text-stroke: 0.5vh black;
+      }
+      .top {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 1vh;
+      }
+      .bottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 1vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="dog">
+      <span class="text top">Hello</span>
+      <span class="text bottom">Yes, this is dog</span>
+    </div>
+  </body>
+</html>
